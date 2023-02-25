@@ -59,8 +59,8 @@ class _DeckState extends State<Deck> {
                   return Column(
                     children: [
                       ListTile(
-                        title: Text(collentionList[index]['name']),
-                        onTap: () => _memo(collentionList[index]['name']),
+                        title: Text(collentionList[index]),
+                        onTap: () => _memo(collentionList[index]),
                       ),
                       const Divider()
                     ],
